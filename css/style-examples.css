@@ -1,0 +1,30 @@
+/* Пример кнопки с картинкой */
+/* <button class="add-on icon-start">Запустить</button> */
+
+add-on {
+  display: inline-block;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 8px 12px;
+  min-width: 40px;
+  min-height: 36px;
+  vertical-align: top;
+
+  font: inherit;
+  color: #666666;
+
+  border: 2px solid #cccccc;
+  background-color: #eeeeee;
+}
+
+.icon-start {
+  background-image: url(img/icon-rocket.svg);
+  background-size: 70%;
+}
+
+[class*=icon-] {
+  background-position: center;
+  background-repeat: no-repeat;
+  font-size: 0;
+}
+
