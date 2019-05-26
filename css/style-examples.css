@@ -28,3 +28,20 @@ add-on {
   font-size: 0;
 }
 
+/* ********************************* */
+/* Установка размера по границам */
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+/* подключение сторонних. для родителя: */
+.content-box-component {
+  box-sizing: content-box;
+}
+/* ***************************************** */
+
